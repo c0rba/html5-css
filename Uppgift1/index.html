@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+        <title>
+            Uppgift 1, undersökningsformulär
+        </title>
+    </head>
+
+    <body>
+        <fieldset>
+        <form action="/action_page.php" target="_blank" method="get">
+            <h1>Detta är ett undersökning som ska fyllas i nedan!</h1>
+            <p><strong>Skriv in ditt förnamn här:</strong>
+            <br>
+            <input type = "text" name="txtUserName" id="txtUserName" value="" placeholder="Skriv in ditt förnamn här" maxlength="20" size="35"/>
+            <br>
+            <br>
+            <label for="name"><strong>Skriv in ditt efternamn här:</strong></label><br>
+            <input type="text" id="name" name="name" maxlength="20" size="35" placeholder="Skriv in ditt efternamn här"><br>
+            </p>
+
+
+
+            <p><em>Tränar du någon sport?</em>
+            <br>
+            <input type="radio" id="ja" name="sport" value="ja">
+            <label for="ja"><strong>JA</strong></label><br>
+            <input type="radio" id="nej" name="sport" value="nej">
+            <label for="nej"><em>NEJ</em></label>
+            </p>
+        
+
+
+        <p><strong><em>På vilket eller vilka sätt föredrar du att läsa om intressanta saker?</em></strong>
+        <br>
+        <input type="checkbox" id="books" name="books" value="bok">
+        <label for="books"><strong><em>Böcker</em></strong></label>
+        <br>
+        <input type="checkbox" id="papers" name="papers" value="tidning">
+        <label for="papers"><strong><em>Tidningar</em></strong></label>
+        <br>
+        <input type="checkbox" id="online" name="online" value="internet">
+        <label for="online"><strong><em>Online</em></strong></label>
+        </p>
+
+
+
+
+
+            <p>Vad är din favorit genre inom film?
+                <br>
+                <label for="genre">Välj vilken genre du gillar bäst:</label>
+                <br>
+                <select id="genre" name="genre" size="3">
+                    <option value="action">Action</option>
+                    <option value="romantik">Romantik</option>
+                    <option value="komedi">Komedi</option>
+                    <option value="drama">Drama</option>
+                    <option value="skräck">Skräck</option>
+                </select><br>
+            </p>
+
+            <p>
+            <textarea name="message" rows="4" cols="30" style="background-color: black; color:white;">Beskriv dig själv lite kort här!</textarea>
+            </p>
+
+        
+        
+
+
+
+            <p style="width:7%; border:2px solid black">
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <br>
+            <br>
+            <input type="submit">
+            <input type="reset">
+            <br>
+            <br>
+            </p>
+        </form>
+    </fieldset>
+    </body>
+
+
+</html>
